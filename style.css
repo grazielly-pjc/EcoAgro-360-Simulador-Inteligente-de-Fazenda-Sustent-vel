@@ -1,24 +1,112 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    background:#f4f4f4;
-    color:#333;
-    transition:0.5s;
-}
-.logo{
-width:180px;
-display:block;
-margin:0 auto 20px;
+background:#f4f4f4;
+color:#333;
+transition:0.5s;
 }
 
-.banner{
-width:100%;
+/* CABEÇALHO */
+
+.topo{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#2e7d32;
+color:white;
+padding:20px 40px;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.logo{
+width:120px;
+height:auto;
+}
+
+.logo-area h1{
+font-size:2rem;
+margin-bottom:5px;
+}
+
+.logo-area p{
+font-size:1rem;
+}
+
+/* CONTEÚDO */
+
+main{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
 margin:20px 0;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.card h2{
+color:#2e7d32;
+margin-bottom:10px;
+}
+
+select{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+font-size:16px;
+}
+
+/* BOTÕES */
+
+button{
+padding:12px 20px;
+border:none;
+background:#2e7d32;
+color:white;
+cursor:pointer;
+border-radius:8px;
+font-size:16px;
+transition:0.3s;
+}
+
+button:hover
+
+#calcular{
+margin-top:20px;
+}
+
+/* RESULTADO */
+
+#resultado{
+margin-top:30px;
+padding:20px;
+background:white;
+border-radius:12px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+/* IMAGEM DA FAZENDA */
+
+.banner{
+margin-top:40px;
 }
 
 .banner img{
@@ -29,83 +117,63 @@ border-radius:15px;
 box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
 
-.hero{
-    background-image:url("img/fazenda.png");
-    background-size:cover;
-    background-position:center;
-    height:500px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    color:white;
-    text-shadow:2px 2px 8px black;
+/* RODAPÉ */
+
+footer{
+text-align:center;
+background:#2e7d32;
+color:white;
+padding:20px;
+margin-top:40px;
 }
 
-.hero h1{
-    font-size:4rem;
-}
-
-.hero p{
-    font-size:1.5rem;
-}
-header{
-    text-align:center;
-    background:#2e7d32;
-    color:white;
-    padding:30px;
-}
-
-main{
-    max-width:900px;
-    margin:auto;
-    padding:20px;
-}
-
-.card{
-    background:white;
-    padding:20px;
-    margin:15px 0;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.1);
-}
-
-select{
-    width:100%;
-    padding:10px;
-    margin-top:10px;
-}
-
-button{
-    padding:12px 20px;
-    border:none;
-    background:#2e7d32;
-    color:white;
-    cursor:pointer;
-    border-radius:5px;
-    margin-top:15px;
-}
-
-button:hover{
-    opacity:0.8;
-}
-
-#resultado{
-    margin-top:30px;
-    font-size:20px;
-    font-weight:bold;
-}
+/* MODO ESCURO */
 
 .dark{
-    background:#121212;
-    color:white;
+background:#121212;
+color:white;
 }
 
 .dark .card{
-    background:#1e1e1e;
+background:#1e1e1e;
+color:white;
 }
 
-footer{
+.dark #resultado{
+background:#1e1e1e;
+color:white;
+}
+
+.dark footer{
+background:#111;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+```
+.topo{
+    flex-direction:column;
     text-align:center;
-    padding:20px;
+    gap:15px;
+}
+
+.logo-area{
+    flex-direction:column;
+}
+
+.logo{
+    width:100px;
+}
+
+.logo-area h1{
+    font-size:1.7rem;
+}
+
+.banner img{
+    max-height:300px;
+}
+```
+
 }
