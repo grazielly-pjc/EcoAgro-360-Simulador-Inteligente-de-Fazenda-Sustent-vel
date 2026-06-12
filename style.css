@@ -113,8 +113,8 @@ box-shadow:0 5px 15px rgba(0,0,0,.2);
 
 footer{
 text-align:center;
-background:#87ea8c;
-color:rgb(53, 55, 173);
+background:#08bc11;
+color:rgb(244, 244, 246);
 padding:20px;
 margin-top:40px;
 }
@@ -144,7 +144,7 @@ background:#111;
 
 @media(max-width:768px){
 
-```
+
 .topo{
     flex-direction:column;
     text-align:center;
@@ -166,6 +166,6 @@ background:#111;
 .banner img{
     max-height:300px;
 }
-```
+
 
 }
