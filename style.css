@@ -146,13 +146,13 @@ background:#111;
 
 
 .topo{
-    flex-direction:column;
+    flex-direction:column-reverse;
     text-align:center;
     gap:15px;
 }
 
 .logo-area{
-    flex-direction:column;
+    flex-direction:column-reverse;
 }
 
 .logo{
@@ -164,7 +164,7 @@ background:#111;
 }
 
 .banner img{
-    max-height:300px;
+    max-height:500px;
 }
 
 
