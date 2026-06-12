@@ -121,8 +121,8 @@ box-shadow:0 5px 15px rgba(0,0,0,.2);
 
 footer{
 text-align:center;
-background:#2e7d32;
-color:white;
+background:#87ea8c;
+color:rgb(53, 55, 173);
 padding:20px;
 margin-top:40px;
 }
@@ -131,7 +131,7 @@ margin-top:40px;
 
 .dark{
 background:#121212;
-color:white;
+color:rgb(95, 223, 120);
 }
 
 .dark .card{
