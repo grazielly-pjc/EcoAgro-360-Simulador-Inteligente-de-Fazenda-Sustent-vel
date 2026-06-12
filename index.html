@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro 360°</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌱 EcoAgro 360°</h1>
+    <p>Agro forte, futuro sustentável</p>
+    <button id="tema">🌙 Modo Escuro</button>
+</header>
+
+<main>
+
+<section class="card">
+    <h2>Uso da Água</h2>
+
+    <select id="agua">
+        <option value="0">Escolha</option>
+        <option value="30">Captação da chuva</option>
+        <option value="20">Gotejamento</option>
+        <option value="5">Aspersão</option>
+    </select>
+</section>
+
+<section class="card">
+    <h2>Conservação do Solo</h2>
+
+    <select id="solo">
+        <option value="0">Escolha</option>
+        <option value="30">Plantio Direto</option>
+        <option value="25">Rotação de Culturas</option>
+        <option value="0">Queimada</option>
+    </select>
+</section>
+
+<section class="card">
+    <h2>Energia Utilizada</h2>
+
+    <select id="energia">
+        <option value="0">Escolha</option>
+        <option value="30">Energia Solar</option>
+        <option value="25">Biodigestor</option>
+        <option value="10">Energia Convencional</option>
+    </select>
+</section>
+
+<section class="card">
+    <h2>Preservação Ambiental</h2>
+
+    <select id="preservacao">
+        <option value="0">Escolha</option>
+        <option value="30">Preservar Mata Ciliar</option>
+        <option value="25">Recuperar Nascentes</option>
+        <option value="5">Não Investir</option>
+    </select>
+</section>
+
+<button id="calcular">Gerar Relatório</button>
+
+<section id="resultado"></section>
+
+</main>
+
+<footer>
+    <p>Projeto Agrinho 2026 - EcoAgro 360°</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
