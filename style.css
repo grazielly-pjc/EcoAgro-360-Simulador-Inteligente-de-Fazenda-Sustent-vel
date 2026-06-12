@@ -19,17 +19,17 @@ justify-content:space-between;
 align-items:center;
 background:#2e7d32;
 color:white;
-padding:20px 40px;
+padding:20px;
 }
 
 .logo-area{
 display:flex;
 align-items:center;
-gap:20px;
+gap:100px;
 }
 
 .logo{
-width:120px;
+width: 300px;
 height:auto;
 }
 
