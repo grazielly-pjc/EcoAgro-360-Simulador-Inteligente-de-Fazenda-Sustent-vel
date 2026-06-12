@@ -10,7 +10,45 @@ body{
     color:#333;
     transition:0.5s;
 }
+.logo{
+width:180px;
+display:block;
+margin:0 auto 20px;
+}
 
+.banner{
+width:100%;
+margin:20px 0;
+}
+
+.banner img{
+width:100%;
+max-height:500px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.hero{
+    background-image:url("img/fazenda.png");
+    background-size:cover;
+    background-position:center;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-shadow:2px 2px 8px black;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+.hero p{
+    font-size:1.5rem;
+}
 header{
     text-align:center;
     background:#2e7d32;
